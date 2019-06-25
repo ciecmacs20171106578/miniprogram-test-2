@@ -1,4 +1,4 @@
-pagaes({})
+pages({})
 var dateTimePicker = require('../../utils/dateTimePicker.js');
 var util = require('../../utils/util.js');
 pagaes({
@@ -12,50 +12,6 @@ pagaes({
     upload: true,
     files: [],
     sum: 0,
-  },
-  //  上传图片
-  previewImage: function () {
-    wx.chooseImage({
-      count: 1,
-      sizeType: ['compressed'], // 可以指定是原图还是压缩图
-      sourceType: ['album', 'camera'], // 可以指定来源是相册还是相机，默认二者都有
-      success: (res) => {
-        console.log(res) // 打印输出返回值
-        let files = this.data.files
-        files.push(res.tempFilePaths[0]) // 把图片地址push到数组中
-        let sum = this.data.sum
-        sum++ // 开始计数
-        this.setData({
-          sum: sum
-        })
-        if (this.data.sum == 1) {
-          this.setData({
-            upload: false
-          })
-        }
-        // tempFilePath可以作为img标签的src属性显示图片
-        this.setData({
-          files: files
-        });
-
-      }
-    })
-  },
-
-  // 删除图片
-  delete: function (e) {
-    let index = e.currentTarget.dataset.index
-    let files = this.data.files
-    files.splice(index, 1)
-    this.setData({
-      files: files
-    })
-    if (this.data.files.length == 0) {
-      this.setData({
-        upload: true,
-        sum: 0
-      })
-    }
   },
   // 保存
   formSubmit: function (e) {

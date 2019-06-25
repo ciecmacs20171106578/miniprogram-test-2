@@ -1,5 +1,27 @@
 {
   "pages": [
-    "pages/util/util"
-  ]
+    "pages/util/util",
+    "pages/html/html"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "新请假",
+        "pagePath": "pages/util/util",
+        "iconPath": "images/icons/two.png",
+        "selectedIconPath": "images/icons/one.png"
+      },
+      {
+        "text": "请假结果",
+        "pagePath": "pages/html/html",
+        "iconPath": "images/icons/four.png",
+        "selectedIconPath": "images/icons/three.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }
