@@ -1,25 +1,36 @@
 {
   "pages": [
     "pages/util/util",
-    "pages/html/html"
+    "pages/index/index",
+    "pages/leave/leave"
   ],
   "window": {
     "navigationBarBackgroundColor": "#000000",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#006df0",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
     "list": [
       {
-        "text": "新请假",
         "pagePath": "pages/util/util",
-        "iconPath": "images/icons/two.png",
-        "selectedIconPath": "images/icons/one.png"
+        "iconPath": "image/icon_CSR.png",
+        "selectedIconPath": "image/icon_CSR_HL.png",
+        "text": "请假"
       },
       {
-        "text": "请假结果",
-        "pagePath": "pages/html/html",
-        "iconPath": "images/icons/four.png",
-        "selectedIconPath": "images/icons/three.png"
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon_CWS.png",
+        "selectedIconPath": "image/icon_CWS_HL.png",
+        "text": "信息"
+      },
+      {
+        "pagePath": "pages/leave/leave",
+        "iconPath": "image/icon_settings.png",
+        "selectedIconPath": "image/icon_settings_HL.png",
+        "text": "设置"
       }
     ]
   },

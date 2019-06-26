@@ -1,3 +1,4 @@
+// pages/info/payment/payment.js
 Page({
   data: {},
   onLoad: function (options) {

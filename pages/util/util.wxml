@@ -1,5 +1,5 @@
 <view class="head">
-  <view class="head_item {{selected?'head_itemActive':''}}" bindtap="selected">新请假</view>
+  <view class="page__title">学生请假</view>
 </view>
 
 
@@ -7,17 +7,23 @@
   <form bindsubmit="formSubmit">
     <view class='bg'>
       <view class='item'>
-        \r\n\r\n\r\n\r\n\r\n\r\n年级：
+        \n\r\n\r\n\r\n\r\n\r\n姓名：
+        <input name='gradeName' placeholder="请输入年级" maxlength='15' class='bk'auto-focus />
+      </view>
+       <view class='item'>
+        \n\r\n\r\n\r\n\r\n\r\n年级：
         <input name='gradeName' placeholder="请输入年级" maxlength='15' class='bk'auto-focus />
       </view>
       <view class='item'>
-        \r\n\r\n\r\n\r\n\r\n\r\n班级：
+        \n\r\n\r\n\r\n\r\n\r\n班级：
         <input name='className' placeholder="请输入班级" maxlength='15' class='bk'auto-focus />
       </view>
-      <view class='item'>
-        \r\n\r\n\r\n\r\n\r\n\r\n学号：
-        <input name='studentNo' placeholder="请输入学号" maxlength='15' class='bk'auto-focus />
+     
+         <view class='item'>
+        联系方式：
+        <input name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bk'auto-focus />
       </view>
+     
       <view class='item'>
         请假天数：
         <input name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bk'auto-focus />
@@ -26,16 +32,16 @@
         起止时间：
         <input name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bk'auto-focus />
       </view>
-      <view class='item'>
-        请假类型：
-          <input name='leaveType' placeholder="病假输1/事假输2" maxlength='15' type="number" class='bk'auto-focus />
-        
-      </view>
+
       <view class='item'>
         请假理由：
         <view class='bk'>
           <input name="leaveReason" placeholder="请输入请假理由" maxlength='500' auto-height/>
         </view>
+      </view>
+          <view class='item'>
+       班主任姓名/联系方式：
+        <input name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bkl'auto-focus />
       </view>
       <button class='btn' formType="submit">提交</button>
     </view>
