@@ -7,57 +7,57 @@
         <view class="weui-form-preview">
             <view class="weui-form-preview__hd">
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">雇员编号</view>
-                    <view class="weui-form-preview__value">C275</view>
+                    <view class="weui-form-preview__label">姓名</view>
+                    <view class="weui-form-preview__value">张欣鹏</view>
                 </view>
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">雇员姓名</view>
-                    <view class="weui-form-preview__value">张三</view>
+                    <view class="weui-form-preview__label">学号</view>
+                    <view class="weui-form-preview__value">20171106578</view>
                 </view>
             </view>
 
             <view class="weui-form-preview__hd">               
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">基础薪水</view>
-                    <view class="weui-form-preview__value">¥12400.00</view>
+                    <view class="weui-form-preview__label">年级</view>
+                    <view class="weui-form-preview__value">2017级</view>
                 </view>
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">销售津贴</view>
-                    <view class="weui-form-preview__value">¥1800.00</view>
+                    <view class="weui-form-preview__label">班级</view>
+                    <view class="weui-form-preview__value">17软件工程</view>
                 </view>
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">缺勤扣除</view>
-                    <view class="weui-form-preview__value">¥-100.00</view>
+                    <view class="weui-form-preview__label">联系方式</view>
+                    <view class="weui-form-preview__value">15886077136</view>
                 </view>
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">交通费</view>
-                    <view class="weui-form-preview__value">¥200.00</view>
+                    <view class="weui-form-preview__label">请假天数</view>
+                    <view class="weui-form-preview__value">3天</view>
                 </view>
             </view>
 
             <view class="weui-form-preview__hd">
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">养老保险</view>
-                    <view class="weui-form-preview__value">¥980.00</view>
+                    <view class="weui-form-preview__label">起止时间</view>
+                    <view class="weui-form-preview__value">19.06.26-19.06.30</view>
                 </view>
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">医疗保险</view>
-                    <view class="weui-form-preview__value">¥120.00</view>
+                    <view class="weui-form-preview__label">请假理由</view>
+                    <view class="weui-form-preview__value">病假</view>
                 </view>
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">住房公积金</view>
-                    <view class="weui-form-preview__value">¥700.00</view>
+                    <view class="weui-form-preview__label">班主任姓名</view>
+                    <view class="weui-form-preview__value">XXX</view>
                 </view>
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">个人所得税</view>
-                    <view class="weui-form-preview__value">¥1200.00</view>
+                    <view class="weui-form-preview__label">学院</view>
+                    <view class="weui-form-preview__value">计算机科学技术学院</view>
                 </view>
             </view>
             
             <view class="weui-form-preview__bd">
                 <view class="weui-form-preview__item">
-                    <view class="weui-form-preview__label">实际发放金额</view>
-                    <view class="weui-form-preview__value_in-hd">¥15400.00</view>
+                    <view class="weui-form-preview__label">请假状态</view>
+                    <view class="weui-form-preview__value_in-hd">休假中</view>
                 </view>
             </view>
             

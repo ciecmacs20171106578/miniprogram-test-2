@@ -100,13 +100,6 @@ Page {
   align-items: center;
 }
 
-.btn {
-  background-color: #79caff;
-  color: #fff;
-  width: 120rpx;
-  font-size: 30rpx;
-  margin-top: 30rpx;
-}
 
 .bk {
   border-radius: 10rpx;
@@ -124,4 +117,16 @@ Page {
     text-align: right;
     font-size: 15px;
     font-weight: 400;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: #fff;
+  text-align: center;
+  background-color:  #006df0;
+ 
 }

@@ -131,7 +131,7 @@ page{
   -webkit-box-flex: 1;
   -webkit-flex: 1;
           flex: 1;
-  color: #3CC51F;
+  color: #006df0;
   text-align: center;
 }
 .weui-form-preview__btn:after {
@@ -154,5 +154,5 @@ page{
   color: #999999;
 }
 .weui-form-preview__btn_primary {
-  color: #0BB20C;
+  color: #006df0;
 }

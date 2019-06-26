@@ -5,7 +5,7 @@
     "pages/leave/leave"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#000000",
+    "navigationBarBackgroundColor": "#006df0",
     "navigationBarTextStyle": "white"
   },
   "tabBar": {

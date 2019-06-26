@@ -7,21 +7,29 @@
   <form bindsubmit="formSubmit">
     <view class='bg'>
       <view class='item'>
-        \n\r\n\r\n\r\n\r\n\r\n姓名：
-        <input name='gradeName' placeholder="请输入年级" maxlength='15' class='bk'auto-focus />
+         \n\r\n\r\n\r\n\r\n\r\n\r\n\n姓名：
+        <input name='gradeName' placeholder="请输入姓名" maxlength='15' class='bk'auto-focus />
       </view>
        <view class='item'>
-        \n\r\n\r\n\r\n\r\n\r\n年级：
+         \n\r\n\r\n\r\n\r\n\r\n\r\n\n学号：
+        <input name='gradeName' placeholder="请输入学号" maxlength='15' class='bk'auto-focus />
+      </view>
+       <view class='item'>
+         \n\r\n\r\n\r\n\r\n\r\n\r\n年级：
         <input name='gradeName' placeholder="请输入年级" maxlength='15' class='bk'auto-focus />
       </view>
       <view class='item'>
-        \n\r\n\r\n\r\n\r\n\r\n班级：
+         \n\r\n\r\n\r\n\r\n\r\n\r\n班级：
         <input name='className' placeholder="请输入班级" maxlength='15' class='bk'auto-focus />
+      </view>
+          <view class='item'>
+         \n\r\n\r\n\r\n\r\n\r\n\r\n学院：
+        <input name='className' placeholder="请输入学院" maxlength='15' class='bk'auto-focus />
       </view>
      
          <view class='item'>
         联系方式：
-        <input name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bk'auto-focus />
+        <input name='leaveDays' placeholder="请输入本人联系方式" maxlength='15' class='bk'auto-focus />
       </view>
      
       <view class='item'>
@@ -30,7 +38,7 @@
       </view>
          <view class='item'>
         起止时间：
-        <input name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bk'auto-focus />
+        <input name='leaveDays' placeholder="请输入请假起止时间" maxlength='15' class='bk'auto-focus />
       </view>
 
       <view class='item'>
@@ -41,7 +49,7 @@
       </view>
           <view class='item'>
        班主任姓名/联系方式：
-        <input name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bkl'auto-focus />
+        <input name='leaveDays' placeholder="请输入班主任姓名/联系方式" maxlength='15' class='bkl'auto-focus />
       </view>
       <button class='btn' formType="submit">提交</button>
     </view>
