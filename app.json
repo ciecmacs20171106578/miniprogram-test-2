@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/util/util",
+    
     "pages/index/index",
-    "pages/leave/leave"
+    "pages/leave/leave",
+    "pages/util/util"
   ],
   "window": {
     "navigationBarBackgroundColor": "#006df0",
