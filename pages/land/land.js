@@ -16,7 +16,7 @@ Page({
               //that.queryUsreInfo();
               //用户已经授权过
               wx.switchTab({
-                url: '/pages/user/card/card'
+                url: '/pages/index/index'
               })
             }
           });
@@ -30,7 +30,7 @@ Page({
       var that = this;
       //授权成功后，跳转进入小程序首页
       wx.switchTab({
-        url: '/pages/user/card/card'
+        url: '/pages/index/index'
       })
     } else {
       //用户按了拒绝按钮

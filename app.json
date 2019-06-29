@@ -1,6 +1,6 @@
 {
   "pages": [
-    
+    "pages/land/land",
     "pages/index/index",
     "pages/leave/leave",
     "pages/util/util"
