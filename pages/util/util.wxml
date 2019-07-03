@@ -8,50 +8,50 @@
     <view class='bg'>
       <view class='item'>
          \n\r\n\r\n\r\n\r\n\r\n\r\n\n姓名：
-        <input name='gradeName' placeholder="请输入姓名" maxlength='15' class='bk'auto-focus />
+        <input data-dateinfo="sname" bindinput='input' name='gradeName' placeholder="请输入姓名" maxlength='15' class='bk'auto-focus />
       </view>
        <view class='item'>
          \n\r\n\r\n\r\n\r\n\r\n\r\n\n学号：
-        <input name='gradeName' placeholder="请输入学号" maxlength='15' class='bk'auto-focus />
+        <input data-dateinfo="studentid" bindinput='input' name='gradeName' placeholder="请输入学号" maxlength='15' class='bk'auto-focus />
       </view>
        <view class='item'>
          \n\r\n\r\n\r\n\r\n\r\n\r\n年级：
-        <input name='gradeName' placeholder="请输入年级" maxlength='15' class='bk'auto-focus />
+        <input data-dateinfo="syear" bindinput='input' name='gradeName' placeholder="请输入年级" maxlength='15' class='bk'auto-focus />
       </view>
       <view class='item'>
          \n\r\n\r\n\r\n\r\n\r\n\r\n班级：
-        <input name='className' placeholder="请输入班级" maxlength='15' class='bk'auto-focus />
+        <input data-dateinfo="sclass" bindinput='input' name='className' placeholder="请输入班级" maxlength='15' class='bk'auto-focus />
       </view>
           <view class='item'>
          \n\r\n\r\n\r\n\r\n\r\n\r\n学院：
-        <input name='className' placeholder="请输入学院" maxlength='15' class='bk'auto-focus />
+        <input data-dateinfo="sin" bindinput='input' name='className' placeholder="请输入学院" maxlength='15' class='bk'auto-focus />
       </view>
      
          <view class='item'>
         联系方式：
-        <input name='leaveDays' placeholder="请输入本人联系方式" maxlength='15' class='bk'auto-focus />
+        <input data-dateinfo="snumber" bindinput='input' name='leaveDays' placeholder="请输入本人联系方式" maxlength='15' class='bk'auto-focus />
       </view>
      
       <view class='item'>
         请假天数：
-        <input name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bk'auto-focus />
+        <input data-dateinfo="sday" bindinput='input' name='leaveDays' placeholder="请输入请假天数" maxlength='15' class='bk'auto-focus />
       </view>
          <view class='item'>
         起止时间：
-        <input name='leaveDays' placeholder="请输入请假起止时间" maxlength='15' class='bk'auto-focus />
+        <input data-dateinfo="sdays" bindinput='input' name='leaveDays' placeholder="请输入请假起止时间" maxlength='15' class='bk'auto-focus />
       </view>
 
       <view class='item'>
         请假理由：
         <view class='bk'>
-          <input name="leaveReason" placeholder="请输入请假理由" maxlength='500' auto-height/>
+          <input data-dateinfo="sso" bindinput='input' name="leaveReason" placeholder="请输入请假理由" maxlength='500' auto-height/>
         </view>
       </view>
           <view class='item'>
        班主任姓名/联系方式：
-        <input name='leaveDays' placeholder="请输入班主任姓名/联系方式" maxlength='15' class='bkl'auto-focus />
+        <input data-dateinfo="steacher" bindinput='input' name='leaveDays' placeholder="请输入班主任姓名/联系方式" maxlength='15' class='bkl'auto-focus />
       </view>
-      <button class='btn' formType="submit">提交</button>
+      <button hover-class='btn_hover' bindtap='submit_button' class='btn' formType="submit">提交</button>
     </view>
   </form>
 </view>
