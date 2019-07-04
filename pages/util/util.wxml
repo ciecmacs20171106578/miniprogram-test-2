@@ -51,8 +51,13 @@
        班主任姓名/联系方式：
         <input data-dateinfo="steacher" bindinput='input' name='leaveDays' placeholder="请输入班主任姓名/联系方式" maxlength='15' class='bkl'auto-focus />
       </view>
-      <button hover-class='btn_hover'  bindtap='submit_button' class='btn' formType="submit">提交</button>
+      
+          </view>
+             
+    <view>
+    <navigator url="/pages/leave/leave" open-type='switchTab'class="'btn" hover-class="btn_hover"    bindtap='submit_button' formType="submit">提交</navigator>
     </view>
+    
   </form>
 </view>
 

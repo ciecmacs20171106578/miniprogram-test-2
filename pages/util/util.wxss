@@ -128,8 +128,29 @@
   color: #fff;
   text-align: center;
   background-color:  #006df0;
+  border-radius: 10rpx;
+  width: 100%;
+  height: 40%;
  
 }
 .btn_hover{
   background-color: rgba(42, 150, 184, 0.822);
+}
+.weui-form-preview__btn_primary {
+  color: #006df0;
+}
+.weui-form-preview__btn_active {
+  background-color: #EEEEEE;
+}
+.weui-form-preview__btn {
+  position: relative;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  color: #006df0;
+  text-align: center;
+}
+.page__bd {
+    padding-bottom: 40px;
 }

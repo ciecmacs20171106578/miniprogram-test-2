@@ -24,6 +24,5 @@ Page({
       },
     })
   },
-  onLoad: function (options) {
-  },
+ 
 })
