@@ -62,9 +62,8 @@
             </view>
             
             <view class="weui-form-preview__ft">
-                <navigator url="/pages/util/util" class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">返回</navigator>
+                <navigator url="/pages/util/util" open-type='switchTab' class="weui-form-preview__btn weui-form-preview__btn_primary" hover-class="weui-form-preview__btn_active">返回</navigator>
             </view>
-            
         </view>
         
     </view>
